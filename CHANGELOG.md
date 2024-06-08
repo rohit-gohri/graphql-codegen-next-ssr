@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.4](https://github.com/correttojs/graphql-codegen-apollo-next-ssr/compare/v1.7.3...v1.7.4) (2022-07-11)
+
+
+### Bug Fixes
+
+* jest 28 ([bb4db0e](https://github.com/correttojs/graphql-codegen-apollo-next-ssr/commit/bb4db0ef4f03c7c2a0f115e1bb258f2d7ef7a3cf))
+
+### [1.7.3](https://github.com/correttojs/graphql-codegen-apollo-next-ssr/compare/v1.7.2...v1.7.3) (2022-07-04)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v18 ([1ec1b82](https://github.com/correttojs/graphql-codegen-apollo-next-ssr/commit/1ec1b82b18dfd3ce812da7b2eb51ed2f214bf00f))
+
+### [1.7.2](https://github.com/correttojs/graphql-codegen-apollo-next-ssr/compare/v1.7.1...v1.7.2) (2022-04-23)
+
 ### [1.7.1](https://github.com/correttojs/graphql-codegen-apollo-next-ssr/compare/v1.7.0...v1.7.1) (2021-09-16)
 
 ## [1.7.0](https://github.com/correttojs/graphql-codegen-apollo-next-ssr/compare/v1.6.1...v1.7.0) (2021-08-29)
