@@ -38,7 +38,6 @@ describe("Apollo Next SSr", () => {
     testSchema: GraphQLSchema,
     documents: Types.DocumentFile[],
     config: any,
-    playground = false
   ) => {
     const tsOutput = await tsPlugin(testSchema, documents, config, {
       outputFile: "",
@@ -50,7 +49,7 @@ describe("Apollo Next SSr", () => {
       { outputFile: "" }
     );
     const merged = mergeOutputs([tsOutput, tsDocumentsOutput, output]);
-    validateTs(merged, undefined, true, false, playground);
+    validateTs(merged, undefined, true, false);
 
     return merged;
   };
