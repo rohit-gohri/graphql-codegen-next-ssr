@@ -57,7 +57,7 @@ export class ApolloNextSSRVisitor extends ClientSideBaseVisitor<
       pre: getConfigValue(rawConfig.pre, ""),
       post: getConfigValue(rawConfig.post, ""),
       customImports: getConfigValue(rawConfig.customImports, null),
-      withHOC: getConfigValue(rawConfig.withHOC, true),
+      withHOC: getConfigValue(rawConfig.withHOC, false),
       withHooks: getConfigValue(rawConfig.withHooks, false),
 
       apolloClientInstanceImport: getConfigValue(
